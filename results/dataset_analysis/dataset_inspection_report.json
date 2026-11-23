@@ -1,0 +1,212 @@
+{
+  "environment": {
+    "mediapipe": {
+      "installed": true,
+      "version": "1.2.3"
+    },
+    "cv2": {
+      "installed": true,
+      "version": "5.0.0"
+    },
+    "numpy": {
+      "installed": true,
+      "version": "2.4.6"
+    },
+    "pandas": {
+      "installed": true,
+      "version": "3.1.1"
+    },
+    "sklearn": {
+      "installed": true,
+      "version": "1.9.1"
+    },
+    "matplotlib": {
+      "installed": true,
+      "version": "3.11.2"
+    },
+    "seaborn": {
+      "installed": true,
+      "version": "0.13.2"
+    },
+    "joblib": {
+      "installed": true,
+      "version": "1.6.0"
+    },
+    "PIL": {
+      "installed": true,
+      "version": "13.0.0"
+    }
+  },
+  "dataset_root": "D:\\gesture-recognition-project\\DATASET",
+  "total_images": 1551,
+  "classes": [
+    "downdog",
+    "goddess",
+    "plank",
+    "tree",
+    "warrior2"
+  ],
+  "formats": {
+    ".jpg": 1429,
+    ".png": 111,
+    ".bmp": 1,
+    ".jpeg": 10
+  },
+  "resolution_summary": {
+    "min_width": 75,
+    "max_width": 6410,
+    "avg_width": 1014.7,
+    "min_height": 75,
+    "max_height": 5184,
+    "avg_height": 786.9
+  },
+  "splits": {
+    "TRAIN": {
+      "classes": {
+        "downdog": 223,
+        "goddess": 180,
+        "plank": 266,
+        "tree": 160,
+        "warrior2": 252
+      },
+      "total": 1081
+    },
+    "TEST": {
+      "classes": {
+        "downdog": 97,
+        "goddess": 80,
+        "plank": 115,
+        "tree": 69,
+        "warrior2": 109
+      },
+      "total": 470
+    }
+  },
+  "duplicate_count": 313,
+  "duplicate_samples": [
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000145.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000158.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000152.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000159.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000154.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000160.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000146.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000161.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000151.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000162.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000153.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000163.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000155.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000164.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000156.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000165.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000150.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000166.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000147.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000168.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000180.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000199.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000179.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000201.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000186.png",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000203.png",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000220.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000232.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000225.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000233.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000223.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000234.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000224.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000235.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000226.JPG",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000236.JPG",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000222.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000237.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    },
+    {
+      "original": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000227.jpg",
+      "duplicate": "D:\\gesture-recognition-project\\DATASET\\TRAIN\\downdog\\00000238.jpg",
+      "split": "TRAIN",
+      "class": "downdog"
+    }
+  ],
+  "corrupted_count": 0,
+  "corrupted_samples": [],
+  "unreadable_cv2_count": 0,
+  "unreadable_cv2_samples": []
+}
